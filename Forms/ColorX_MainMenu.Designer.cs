@@ -32,6 +32,8 @@ namespace ColorX.Forms
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorX_MainMenu));
             this.Main_Panel = new System.Windows.Forms.Panel();
             this.Top_Panel = new System.Windows.Forms.Panel();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.panel31 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
@@ -172,6 +174,8 @@ namespace ColorX.Forms
             // Top_Panel
             // 
             this.Top_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.Top_Panel.Controls.Add(this.panel32);
+            this.Top_Panel.Controls.Add(this.panel31);
             this.Top_Panel.Controls.Add(this.panel30);
             this.Top_Panel.Controls.Add(this.panel28);
             this.Top_Panel.Controls.Add(this.panel27);
@@ -201,6 +205,23 @@ namespace ColorX.Forms
             this.Top_Panel.Name = "Top_Panel";
             this.Top_Panel.Size = new System.Drawing.Size(1100, 132);
             this.Top_Panel.TabIndex = 0;
+            // 
+            // panel32
+            // 
+            this.panel32.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel32.Location = new System.Drawing.Point(361, 10);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(10, 112);
+            this.panel32.TabIndex = 25;
+            // 
+            // panel31
+            // 
+            this.panel31.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel31.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel31.Location = new System.Drawing.Point(360, 10);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(1, 112);
+            this.panel31.TabIndex = 24;
             // 
             // panel30
             // 
@@ -1109,5 +1130,7 @@ namespace ColorX.Forms
         private System.Windows.Forms.PictureBox pictureBox39;
         private System.Windows.Forms.Panel panel29;
         private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.Panel panel31;
+        private System.Windows.Forms.Panel panel32;
     }
 }
