@@ -63,6 +63,46 @@ namespace ColorX {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ColorX_AwakeMenuInnerLRBorder {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_AwakeMenuInnerLRBorder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorX_AwakeMenuInnerTBBorder {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_AwakeMenuInnerTBBorder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorX_AwakeMenuLRBorder {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_AwakeMenuLRBorder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorX_AwakeMenuTPBorder {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_AwakeMenuTPBorder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ColorX_BrushIcon {
             get {
                 object obj = ResourceManager.GetObject("ColorX_BrushIcon", resourceCulture);
@@ -176,6 +216,16 @@ namespace ColorX {
         internal static System.Drawing.Bitmap ColorX_SaveImageIcon {
             get {
                 object obj = ResourceManager.GetObject("ColorX_SaveImageIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorX_SeperatorIcon {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_SeperatorIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
