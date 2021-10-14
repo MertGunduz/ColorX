@@ -124,6 +124,9 @@
   <data name="ColorX_EraserIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ColorX_EraserIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ColorX_ExitIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ColorX_ExitIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ColorX_FillIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ColorX_FillIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,6 +138,9 @@
   </data>
   <data name="ColorX_MainLogoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ColorX_MainLogoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColorX_MinimizeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ColorX_MinimizeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ColorX_OpenImageIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ColorX_OpenImageIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

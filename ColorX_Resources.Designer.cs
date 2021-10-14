@@ -83,6 +83,16 @@ namespace ColorX {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ColorX_ExitIcon {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_ExitIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ColorX_FillIcon {
             get {
                 object obj = ResourceManager.GetObject("ColorX_FillIcon", resourceCulture);
@@ -116,6 +126,16 @@ namespace ColorX {
         internal static System.Drawing.Bitmap ColorX_MainLogoIcon {
             get {
                 object obj = ResourceManager.GetObject("ColorX_MainLogoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorX_MinimizeIcon {
+            get {
+                object obj = ResourceManager.GetObject("ColorX_MinimizeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
