@@ -29,6 +29,7 @@ namespace ColorX.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Mid_Panel = new System.Windows.Forms.Panel();
             this.Inner_Panel = new System.Windows.Forms.Panel();
             this.InnerMid_Panel = new System.Windows.Forms.Panel();
@@ -52,6 +53,7 @@ namespace ColorX.Forms
             this.RightBorder_Panel = new System.Windows.Forms.Panel();
             this.BottomBorder_Panel = new System.Windows.Forms.Panel();
             this.TopBorder_Panel = new System.Windows.Forms.Panel();
+            this.Awake_Timer = new System.Windows.Forms.Timer(this.components);
             this.Mid_Panel.SuspendLayout();
             this.Inner_Panel.SuspendLayout();
             this.InnerMid_Panel.SuspendLayout();
@@ -283,6 +285,10 @@ namespace ColorX.Forms
             this.TopBorder_Panel.Size = new System.Drawing.Size(400, 2);
             this.TopBorder_Panel.TabIndex = 0;
             // 
+            // Awake_Timer
+            // 
+            this.Awake_Timer.Interval = 10;
+            // 
             // ColorX_AwakeMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -329,5 +335,6 @@ namespace ColorX.Forms
         private System.Windows.Forms.Panel InnerLogoPictureBox_Panel;
         private System.Windows.Forms.PictureBox Logo_PictureBox;
         private System.Windows.Forms.PictureBox Label_PictureBox;
+        private System.Windows.Forms.Timer Awake_Timer;
     }
 }
