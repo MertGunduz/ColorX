@@ -249,6 +249,7 @@ namespace ColorX.Forms
             // 
             // pictureBox48
             // 
+            this.pictureBox48.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox48.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox48.Image = global::ColorX.ColorX_Resources.ColorX_OpenImageIcon;
             this.pictureBox48.Location = new System.Drawing.Point(1001, 40);
@@ -260,6 +261,7 @@ namespace ColorX.Forms
             // 
             // pictureBox47
             // 
+            this.pictureBox47.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox47.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox47.Image = global::ColorX.ColorX_Resources.ColorX_SaveImageIcon;
             this.pictureBox47.Location = new System.Drawing.Point(911, 40);
@@ -271,6 +273,7 @@ namespace ColorX.Forms
             // 
             // pictureBox46
             // 
+            this.pictureBox46.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox46.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox46.Image = global::ColorX.ColorX_Resources.ColorX_EraserIcon;
             this.pictureBox46.Location = new System.Drawing.Point(821, 40);
@@ -282,6 +285,7 @@ namespace ColorX.Forms
             // 
             // pictureBox45
             // 
+            this.pictureBox45.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox45.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox45.Image = global::ColorX.ColorX_Resources.ColorX_GradientIcon;
             this.pictureBox45.Location = new System.Drawing.Point(731, 40);
@@ -293,6 +297,7 @@ namespace ColorX.Forms
             // 
             // pictureBox44
             // 
+            this.pictureBox44.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox44.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox44.Image = global::ColorX.ColorX_Resources.ColorX_BrushIcon;
             this.pictureBox44.Location = new System.Drawing.Point(641, 40);
@@ -304,6 +309,7 @@ namespace ColorX.Forms
             // 
             // pictureBox43
             // 
+            this.pictureBox43.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox43.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox43.Image = global::ColorX.ColorX_Resources.ColorX_PencilIcon;
             this.pictureBox43.Location = new System.Drawing.Point(551, 40);
@@ -315,6 +321,7 @@ namespace ColorX.Forms
             // 
             // pictureBox42
             // 
+            this.pictureBox42.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox42.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox42.Image = global::ColorX.ColorX_Resources.ColorX_FillIcon;
             this.pictureBox42.Location = new System.Drawing.Point(461, 40);
@@ -326,6 +333,7 @@ namespace ColorX.Forms
             // 
             // pictureBox41
             // 
+            this.pictureBox41.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox41.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox41.Image = global::ColorX.ColorX_Resources.ColorX_PaletteIcon;
             this.pictureBox41.Location = new System.Drawing.Point(371, 40);
@@ -348,8 +356,12 @@ namespace ColorX.Forms
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Dock = System.Windows.Forms.DockStyle.Right;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = global::ColorX.ColorX_Resources.ColorX_MinimizeIcon;
             this.button2.Location = new System.Drawing.Point(654, 0);
@@ -369,8 +381,12 @@ namespace ColorX.Forms
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Dock = System.Windows.Forms.DockStyle.Right;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::ColorX.ColorX_Resources.ColorX_ExitIcon;
             this.button1.Location = new System.Drawing.Point(689, 0);
