@@ -288,6 +288,7 @@ namespace ColorX.Forms
             // Awake_Timer
             // 
             this.Awake_Timer.Interval = 10;
+            this.Awake_Timer.Tick += new System.EventHandler(this.Awake_Timer_Tick);
             // 
             // ColorX_AwakeMenu
             // 
@@ -299,6 +300,7 @@ namespace ColorX.Forms
             this.Name = "ColorX_AwakeMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorX";
+            this.Load += new System.EventHandler(this.ColorX_AwakeMenu_Load);
             this.Mid_Panel.ResumeLayout(false);
             this.Inner_Panel.ResumeLayout(false);
             this.InnerMid_Panel.ResumeLayout(false);

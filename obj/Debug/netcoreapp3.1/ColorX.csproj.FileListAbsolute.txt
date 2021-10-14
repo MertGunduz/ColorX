@@ -15,3 +15,4 @@ C:\Users\u\source\repos\ColorX\bin\Debug\netcoreapp3.1\ColorX.pdb
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.dll
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.pdb
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.genruntimeconfig.cache
+C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.Forms.ColorX_MainMenu.resources

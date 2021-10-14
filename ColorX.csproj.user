@@ -4,5 +4,8 @@
     <Compile Update="Forms\ColorX_AwakeMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\ColorX_MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
