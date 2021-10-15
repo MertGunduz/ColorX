@@ -589,6 +589,7 @@ namespace ColorX.Forms
             this.FourthRed_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthRed_PictureBox.TabIndex = 9;
             this.FourthRed_PictureBox.TabStop = false;
+            this.FourthRed_PictureBox.Click += new System.EventHandler(this.FourthRed_PictureBox_Click);
             // 
             // ThirdRed_PictureBox
             // 
@@ -600,6 +601,7 @@ namespace ColorX.Forms
             this.ThirdRed_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdRed_PictureBox.TabIndex = 8;
             this.ThirdRed_PictureBox.TabStop = false;
+            this.ThirdRed_PictureBox.Click += new System.EventHandler(this.ThirdRed_PictureBox_Click);
             // 
             // SecondRed_PictureBox
             // 
@@ -611,6 +613,7 @@ namespace ColorX.Forms
             this.SecondRed_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondRed_PictureBox.TabIndex = 7;
             this.SecondRed_PictureBox.TabStop = false;
+            this.SecondRed_PictureBox.Click += new System.EventHandler(this.SecondRed_PictureBox_Click);
             // 
             // RedMargin_Panel
             // 
@@ -630,6 +633,7 @@ namespace ColorX.Forms
             this.FirstRed_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstRed_PictureBox.TabIndex = 5;
             this.FirstRed_PictureBox.TabStop = false;
+            this.FirstRed_PictureBox.Click += new System.EventHandler(this.FirstRed_PictureBox_Click);
             // 
             // PinkRedMargin_Panel
             // 
@@ -662,6 +666,7 @@ namespace ColorX.Forms
             this.FourthPink_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthPink_PictureBox.TabIndex = 9;
             this.FourthPink_PictureBox.TabStop = false;
+            this.FourthPink_PictureBox.Click += new System.EventHandler(this.FourthPink_PictureBox_Click);
             // 
             // ThirdPink_PictureBox
             // 
@@ -673,6 +678,7 @@ namespace ColorX.Forms
             this.ThirdPink_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdPink_PictureBox.TabIndex = 8;
             this.ThirdPink_PictureBox.TabStop = false;
+            this.ThirdPink_PictureBox.Click += new System.EventHandler(this.ThirdPink_PictureBox_Click);
             // 
             // SecondPink_PictureBox
             // 
@@ -684,6 +690,7 @@ namespace ColorX.Forms
             this.SecondPink_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondPink_PictureBox.TabIndex = 7;
             this.SecondPink_PictureBox.TabStop = false;
+            this.SecondPink_PictureBox.Click += new System.EventHandler(this.SecondPink_PictureBox_Click);
             // 
             // PinkMargin_Panel
             // 
@@ -703,6 +710,7 @@ namespace ColorX.Forms
             this.FirstPink_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstPink_PictureBox.TabIndex = 5;
             this.FirstPink_PictureBox.TabStop = false;
+            this.FirstPink_PictureBox.Click += new System.EventHandler(this.FirstPink_PictureBox_Click);
             // 
             // PurplePinkMargin_Panel
             // 
@@ -735,6 +743,7 @@ namespace ColorX.Forms
             this.FourthPurple_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthPurple_PictureBox.TabIndex = 9;
             this.FourthPurple_PictureBox.TabStop = false;
+            this.FourthPurple_PictureBox.Click += new System.EventHandler(this.FourthPurple_PictureBox_Click);
             // 
             // ThirdPurple_PictureBox
             // 
@@ -746,6 +755,7 @@ namespace ColorX.Forms
             this.ThirdPurple_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdPurple_PictureBox.TabIndex = 8;
             this.ThirdPurple_PictureBox.TabStop = false;
+            this.ThirdPurple_PictureBox.Click += new System.EventHandler(this.ThirdPurple_PictureBox_Click);
             // 
             // SecondPurple_PictureBox
             // 
@@ -757,6 +767,7 @@ namespace ColorX.Forms
             this.SecondPurple_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondPurple_PictureBox.TabIndex = 7;
             this.SecondPurple_PictureBox.TabStop = false;
+            this.SecondPurple_PictureBox.Click += new System.EventHandler(this.SecondPurple_PictureBox_Click);
             // 
             // PurpleMargin_Panel
             // 
@@ -776,6 +787,7 @@ namespace ColorX.Forms
             this.FirstPurple_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstPurple_PictureBox.TabIndex = 5;
             this.FirstPurple_PictureBox.TabStop = false;
+            this.FirstPurple_PictureBox.Click += new System.EventHandler(this.FirstPurple_PictureBox_Click);
             // 
             // NavyBluePurpleMargin_Panel
             // 
@@ -808,6 +820,7 @@ namespace ColorX.Forms
             this.FourthNavyBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthNavyBlue_PictureBox.TabIndex = 9;
             this.FourthNavyBlue_PictureBox.TabStop = false;
+            this.FourthNavyBlue_PictureBox.Click += new System.EventHandler(this.FourthNavyBlue_PictureBox_Click);
             // 
             // ThirdNavyBlue_PictureBox
             // 
@@ -819,6 +832,7 @@ namespace ColorX.Forms
             this.ThirdNavyBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdNavyBlue_PictureBox.TabIndex = 8;
             this.ThirdNavyBlue_PictureBox.TabStop = false;
+            this.ThirdNavyBlue_PictureBox.Click += new System.EventHandler(this.ThirdNavyBlue_PictureBox_Click);
             // 
             // SecondNavyBlue_PictureBox
             // 
@@ -830,6 +844,7 @@ namespace ColorX.Forms
             this.SecondNavyBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondNavyBlue_PictureBox.TabIndex = 7;
             this.SecondNavyBlue_PictureBox.TabStop = false;
+            this.SecondNavyBlue_PictureBox.Click += new System.EventHandler(this.SecondNavyBlue_PictureBox_Click);
             // 
             // NavyBlueMargin_Panel
             // 
@@ -849,6 +864,7 @@ namespace ColorX.Forms
             this.FirstNavyBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstNavyBlue_PictureBox.TabIndex = 5;
             this.FirstNavyBlue_PictureBox.TabStop = false;
+            this.FirstNavyBlue_PictureBox.Click += new System.EventHandler(this.FirstNavyBlue_PictureBox_Click);
             // 
             // BlueNavyBlueMargin_Panel
             // 
@@ -881,6 +897,7 @@ namespace ColorX.Forms
             this.FourthBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthBlue_PictureBox.TabIndex = 9;
             this.FourthBlue_PictureBox.TabStop = false;
+            this.FourthBlue_PictureBox.Click += new System.EventHandler(this.FourthBlue_PictureBox_Click);
             // 
             // ThirdBlue_PictureBox
             // 
@@ -892,6 +909,7 @@ namespace ColorX.Forms
             this.ThirdBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdBlue_PictureBox.TabIndex = 8;
             this.ThirdBlue_PictureBox.TabStop = false;
+            this.ThirdBlue_PictureBox.Click += new System.EventHandler(this.ThirdBlue_PictureBox_Click);
             // 
             // SecondBlue_PictureBox
             // 
@@ -903,6 +921,7 @@ namespace ColorX.Forms
             this.SecondBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondBlue_PictureBox.TabIndex = 7;
             this.SecondBlue_PictureBox.TabStop = false;
+            this.SecondBlue_PictureBox.Click += new System.EventHandler(this.SecondBlue_PictureBox_Click);
             // 
             // BlueMargin_Panel
             // 
@@ -922,6 +941,7 @@ namespace ColorX.Forms
             this.FirstBlue_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstBlue_PictureBox.TabIndex = 5;
             this.FirstBlue_PictureBox.TabStop = false;
+            this.FirstBlue_PictureBox.Click += new System.EventHandler(this.FirstBlue_PictureBox_Click);
             // 
             // MintBlueMargin_Panel
             // 
@@ -954,6 +974,7 @@ namespace ColorX.Forms
             this.FourthMint_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthMint_PictureBox.TabIndex = 9;
             this.FourthMint_PictureBox.TabStop = false;
+            this.FourthMint_PictureBox.Click += new System.EventHandler(this.FourthMint_PictureBox_Click);
             // 
             // ThirdMint_PictureBox
             // 
@@ -965,6 +986,7 @@ namespace ColorX.Forms
             this.ThirdMint_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdMint_PictureBox.TabIndex = 8;
             this.ThirdMint_PictureBox.TabStop = false;
+            this.ThirdMint_PictureBox.Click += new System.EventHandler(this.ThirdMint_PictureBox_Click);
             // 
             // SecondMint_PictureBox
             // 
@@ -976,6 +998,7 @@ namespace ColorX.Forms
             this.SecondMint_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondMint_PictureBox.TabIndex = 7;
             this.SecondMint_PictureBox.TabStop = false;
+            this.SecondMint_PictureBox.Click += new System.EventHandler(this.SecondMint_PictureBox_Click);
             // 
             // MintMargin_Panel
             // 
@@ -995,6 +1018,7 @@ namespace ColorX.Forms
             this.FirstMint_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstMint_PictureBox.TabIndex = 5;
             this.FirstMint_PictureBox.TabStop = false;
+            this.FirstMint_PictureBox.Click += new System.EventHandler(this.FirstMint_PictureBox_Click);
             // 
             // JungleGrassMintMargin_Panel
             // 
@@ -1027,6 +1051,7 @@ namespace ColorX.Forms
             this.FourthJungleGrass_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthJungleGrass_PictureBox.TabIndex = 9;
             this.FourthJungleGrass_PictureBox.TabStop = false;
+            this.FourthJungleGrass_PictureBox.Click += new System.EventHandler(this.FourthJungleGrass_PictureBox_Click);
             // 
             // ThirdJungleGrass_PictureBox
             // 
@@ -1038,6 +1063,7 @@ namespace ColorX.Forms
             this.ThirdJungleGrass_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdJungleGrass_PictureBox.TabIndex = 8;
             this.ThirdJungleGrass_PictureBox.TabStop = false;
+            this.ThirdJungleGrass_PictureBox.Click += new System.EventHandler(this.ThirdJungleGrass_PictureBox_Click);
             // 
             // SecondJungleGrass_PictureBox
             // 
@@ -1049,6 +1075,7 @@ namespace ColorX.Forms
             this.SecondJungleGrass_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondJungleGrass_PictureBox.TabIndex = 7;
             this.SecondJungleGrass_PictureBox.TabStop = false;
+            this.SecondJungleGrass_PictureBox.Click += new System.EventHandler(this.SecondJungleGrass_PictureBox_Click);
             // 
             // JungleGrassMargin_Panel
             // 
@@ -1068,6 +1095,7 @@ namespace ColorX.Forms
             this.FirstJungleGrass_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstJungleGrass_PictureBox.TabIndex = 5;
             this.FirstJungleGrass_PictureBox.TabStop = false;
+            this.FirstJungleGrass_PictureBox.Click += new System.EventHandler(this.FirstJungleGrass_PictureBox_Click);
             // 
             // BrownJungleGrassMargin_Panel
             // 
@@ -1100,6 +1128,7 @@ namespace ColorX.Forms
             this.FourthBrown_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthBrown_PictureBox.TabIndex = 9;
             this.FourthBrown_PictureBox.TabStop = false;
+            this.FourthBrown_PictureBox.Click += new System.EventHandler(this.FourthBrown_PictureBox_Click);
             // 
             // ThirdBrown_PictureBox
             // 
@@ -1111,6 +1140,7 @@ namespace ColorX.Forms
             this.ThirdBrown_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdBrown_PictureBox.TabIndex = 8;
             this.ThirdBrown_PictureBox.TabStop = false;
+            this.ThirdBrown_PictureBox.Click += new System.EventHandler(this.ThirdBrown_PictureBox_Click);
             // 
             // SecondBrown_PictureBox
             // 
@@ -1122,6 +1152,7 @@ namespace ColorX.Forms
             this.SecondBrown_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondBrown_PictureBox.TabIndex = 7;
             this.SecondBrown_PictureBox.TabStop = false;
+            this.SecondBrown_PictureBox.Click += new System.EventHandler(this.SecondBrown_PictureBox_Click);
             // 
             // BrownMargin_Panel
             // 
@@ -1141,6 +1172,7 @@ namespace ColorX.Forms
             this.FirstBrown_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstBrown_PictureBox.TabIndex = 5;
             this.FirstBrown_PictureBox.TabStop = false;
+            this.FirstBrown_PictureBox.Click += new System.EventHandler(this.FirstBrown_PictureBox_Click);
             // 
             // GreenBrownMargin_Panel
             // 
@@ -1173,6 +1205,7 @@ namespace ColorX.Forms
             this.FourthGreen_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthGreen_PictureBox.TabIndex = 9;
             this.FourthGreen_PictureBox.TabStop = false;
+            this.FourthGreen_PictureBox.Click += new System.EventHandler(this.FourthGreen_PictureBox_Click);
             // 
             // ThirdGreen_PictureBox
             // 
@@ -1184,6 +1217,7 @@ namespace ColorX.Forms
             this.ThirdGreen_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdGreen_PictureBox.TabIndex = 8;
             this.ThirdGreen_PictureBox.TabStop = false;
+            this.ThirdGreen_PictureBox.Click += new System.EventHandler(this.ThirdGreen_PictureBox_Click);
             // 
             // SecondGreen_PictureBox
             // 
@@ -1195,6 +1229,7 @@ namespace ColorX.Forms
             this.SecondGreen_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondGreen_PictureBox.TabIndex = 7;
             this.SecondGreen_PictureBox.TabStop = false;
+            this.SecondGreen_PictureBox.Click += new System.EventHandler(this.SecondGreen_PictureBox_Click);
             // 
             // GreenMargin_Panel
             // 
@@ -1214,6 +1249,7 @@ namespace ColorX.Forms
             this.FirstGreen_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstGreen_PictureBox.TabIndex = 5;
             this.FirstGreen_PictureBox.TabStop = false;
+            this.FirstGreen_PictureBox.Click += new System.EventHandler(this.FirstGreen_PictureBox_Click);
             // 
             // OrangeGreenMargin_Panel
             // 
@@ -1246,6 +1282,7 @@ namespace ColorX.Forms
             this.FourthOrange_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FourthOrange_PictureBox.TabIndex = 4;
             this.FourthOrange_PictureBox.TabStop = false;
+            this.FourthOrange_PictureBox.Click += new System.EventHandler(this.FourthOrange_PictureBox_Click);
             // 
             // ThirdOrange_PictureBox
             // 
@@ -1257,6 +1294,7 @@ namespace ColorX.Forms
             this.ThirdOrange_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.ThirdOrange_PictureBox.TabIndex = 3;
             this.ThirdOrange_PictureBox.TabStop = false;
+            this.ThirdOrange_PictureBox.Click += new System.EventHandler(this.ThirdOrange_PictureBox_Click);
             // 
             // SecondOrange_PictureBox
             // 
@@ -1268,6 +1306,7 @@ namespace ColorX.Forms
             this.SecondOrange_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.SecondOrange_PictureBox.TabIndex = 2;
             this.SecondOrange_PictureBox.TabStop = false;
+            this.SecondOrange_PictureBox.Click += new System.EventHandler(this.SecondOrange_PictureBox_Click);
             // 
             // OrangeMargin_Panel
             // 
@@ -1287,6 +1326,7 @@ namespace ColorX.Forms
             this.FirstOrange_PictureBox.Size = new System.Drawing.Size(25, 25);
             this.FirstOrange_PictureBox.TabIndex = 0;
             this.FirstOrange_PictureBox.TabStop = false;
+            this.FirstOrange_PictureBox.Click += new System.EventHandler(this.FirstOrange_PictureBox_Click);
             // 
             // TopPanelRightMargin_Panel
             // 

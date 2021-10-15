@@ -71,6 +71,12 @@ namespace ColorX.Forms
             }
         }
 
+        private void Fill_PictureBox_Click(object sender, EventArgs e)
+        {
+            graphics = Canvas_PictureBox.CreateGraphics();
+            graphics.FillRectangle(brush, new Rectangle(0, 0, Canvas_PictureBox.Width, Canvas_PictureBox.Height));
+        }
+        
         private void Pencil_PictureBox_Click(object sender, EventArgs e)
         {
             SelectedTool = Tool.Pen;
@@ -145,9 +151,8 @@ namespace ColorX.Forms
             {
                 if (SelectedTool == Tool.Pen)
                 {
-                    // Sets The Pen Thinner & Black Color
+                    // Sets The Pen Thinner
                     pen.Width = 2;
-                    pen.Color = Color.Black;  
 
                     // Take Location
                     pointX = e.Location;
@@ -226,16 +231,218 @@ namespace ColorX.Forms
         {
             WindowState = FormWindowState.Minimized;
         }
-
-        private void Fill_PictureBox_Click(object sender, EventArgs e)
-        {
-            graphics = Canvas_PictureBox.CreateGraphics();
-            graphics.FillRectangle(brush, new Rectangle(0, 0, Canvas_PictureBox.Width, Canvas_PictureBox.Height));
-        }
-
         private void Exit_Button_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        // Color Picker Buttons
+        private void FirstOrange_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstOrange_PictureBox, pen, brush);
+        }
+
+        private void SecondOrange_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondOrange_PictureBox, pen, brush);
+
+        }
+
+        private void ThirdOrange_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdOrange_PictureBox, pen, brush);
+
+        }
+
+        private void FourthOrange_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthOrange_PictureBox, pen, brush);
+        }
+        private void FirstGreen_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstGreen_PictureBox, pen, brush);
+        }
+
+        private void SecondGreen_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondGreen_PictureBox, pen, brush);
+        }
+
+        private void ThirdGreen_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdGreen_PictureBox, pen, brush);
+        }
+
+        private void FourthGreen_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthGreen_PictureBox, pen, brush);
+        }
+
+        private void FirstBrown_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstBrown_PictureBox, pen, brush);
+        }
+
+        private void SecondBrown_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondBrown_PictureBox, pen, brush);
+        }
+
+        private void ThirdBrown_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdBrown_PictureBox, pen, brush);
+        }
+
+        private void FourthBrown_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthBrown_PictureBox, pen, brush);
+        }
+
+        private void FirstJungleGrass_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstJungleGrass_PictureBox, pen, brush);
+        }
+
+        private void SecondJungleGrass_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondJungleGrass_PictureBox, pen, brush);
+        }
+
+        private void ThirdJungleGrass_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdJungleGrass_PictureBox, pen, brush);
+        }
+
+        private void FourthJungleGrass_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthJungleGrass_PictureBox, pen, brush);
+        }
+
+        private void FirstMint_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstMint_PictureBox, pen, brush);
+        }
+
+        private void SecondMint_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondMint_PictureBox, pen, brush);
+        }
+
+        private void ThirdMint_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdMint_PictureBox, pen, brush);
+        }
+
+        private void FourthMint_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthMint_PictureBox, pen, brush);
+        }
+
+        private void FirstBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstBlue_PictureBox, pen, brush);
+        }
+
+        private void SecondBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondBlue_PictureBox, pen, brush);
+        }
+
+        private void ThirdBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdBlue_PictureBox, pen, brush);
+        }
+
+        private void FourthBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthBlue_PictureBox, pen, brush);
+        }
+
+        private void FirstNavyBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstNavyBlue_PictureBox, pen, brush);
+        }
+
+        private void SecondNavyBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondNavyBlue_PictureBox, pen, brush);
+        }
+
+        private void ThirdNavyBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdNavyBlue_PictureBox, pen, brush);
+        }
+
+        private void FourthNavyBlue_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthNavyBlue_PictureBox, pen, brush);
+        }
+
+        private void FirstPurple_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstPurple_PictureBox, pen, brush);
+        }
+
+        private void SecondPurple_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondPurple_PictureBox, pen, brush);
+        }
+
+        private void ThirdPurple_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdPurple_PictureBox, pen, brush);
+        }
+
+        private void FourthPurple_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthPurple_PictureBox, pen, brush);
+        }
+
+        private void FirstPink_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstPink_PictureBox, pen, brush);
+        }
+
+        private void SecondPink_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondPink_PictureBox, pen, brush);
+        }
+
+        private void ThirdPink_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdPink_PictureBox, pen, brush);
+        }
+
+        private void FourthPink_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthPink_PictureBox, pen, brush);
+        }
+
+        private void FirstRed_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FirstRed_PictureBox, pen, brush);
+        }
+
+        private void SecondRed_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(SecondRed_PictureBox, pen, brush);
+        }
+
+        private void ThirdRed_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(ThirdRed_PictureBox, pen, brush);
+        }
+
+        private void FourthRed_PictureBox_Click(object sender, EventArgs e)
+        {
+            SetColor(FourthRed_PictureBox, pen, brush);
+        }
+
+        // Color Taking Algo
+        private void SetColor(PictureBox Clicked_PictureBox, Pen Selected_Pen, SolidBrush Selected_Brush)
+        {
+            Selected_Pen.Color = Clicked_PictureBox.BackColor;
+            Selected_Brush.Color = Clicked_PictureBox.BackColor;
         }
     }
 }
