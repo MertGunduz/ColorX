@@ -1,4 +1,3 @@
-C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.csproj.AssemblyReference.cache
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.ColorX_Resources.resources
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.Forms.ColorX_AwakeMenu.resources
 C:\Users\u\source\repos\ColorX\obj\Debug\netcoreapp3.1\ColorX.csproj.GenerateResource.cache
