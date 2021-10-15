@@ -216,6 +216,7 @@ namespace ColorX.Forms
             this.Canvas_PictureBox.Location = new System.Drawing.Point(0, 132);
             this.Canvas_PictureBox.Name = "Canvas_PictureBox";
             this.Canvas_PictureBox.Size = new System.Drawing.Size(1104, 568);
+            this.Canvas_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Canvas_PictureBox.TabIndex = 1;
             this.Canvas_PictureBox.TabStop = false;
             this.Canvas_PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Canvas_PictureBox_MouseDown);
@@ -277,6 +278,7 @@ namespace ColorX.Forms
             this.Open_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Open_PictureBox.TabIndex = 34;
             this.Open_PictureBox.TabStop = false;
+            this.Open_PictureBox.Click += new System.EventHandler(this.Open_PictureBox_Click);
             // 
             // Save_PictureBox
             // 
@@ -289,6 +291,7 @@ namespace ColorX.Forms
             this.Save_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Save_PictureBox.TabIndex = 33;
             this.Save_PictureBox.TabStop = false;
+            this.Save_PictureBox.Click += new System.EventHandler(this.Save_PictureBox_Click);
             // 
             // Eraser_PictureBox
             // 
@@ -301,6 +304,7 @@ namespace ColorX.Forms
             this.Eraser_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Eraser_PictureBox.TabIndex = 32;
             this.Eraser_PictureBox.TabStop = false;
+            this.Eraser_PictureBox.Click += new System.EventHandler(this.Eraser_PictureBox_Click);
             // 
             // Gradient_PictureBox
             // 
@@ -313,6 +317,7 @@ namespace ColorX.Forms
             this.Gradient_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Gradient_PictureBox.TabIndex = 31;
             this.Gradient_PictureBox.TabStop = false;
+            this.Gradient_PictureBox.Click += new System.EventHandler(this.Gradient_PictureBox_Click);
             // 
             // Brush_PictureBox
             // 
@@ -351,6 +356,7 @@ namespace ColorX.Forms
             this.Fill_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Fill_PictureBox.TabIndex = 28;
             this.Fill_PictureBox.TabStop = false;
+            this.Fill_PictureBox.Click += new System.EventHandler(this.Fill_PictureBox_Click);
             // 
             // Palette_PictureBox
             // 
