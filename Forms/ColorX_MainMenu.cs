@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Text;
-using System.IO;
-using System.Drawing.Imaging;
 using System.Windows.Forms;
 
 namespace ColorX.Forms
@@ -37,7 +31,7 @@ namespace ColorX.Forms
         enum Tool
         {
             None,
-            Fill, 
+            Fill,
             Pen,
             Brush,
             Gradient,
@@ -76,7 +70,7 @@ namespace ColorX.Forms
             graphics = Canvas_PictureBox.CreateGraphics();
             graphics.FillRectangle(brush, new Rectangle(0, 0, Canvas_PictureBox.Width, Canvas_PictureBox.Height));
         }
-        
+
         private void Pencil_PictureBox_Click(object sender, EventArgs e)
         {
             SelectedTool = Tool.Pen;
