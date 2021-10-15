@@ -88,6 +88,10 @@ namespace ColorX.Forms
             {
                 if (SelectedTool == Tool.Pen)
                 {
+                    // Sets The Pen Thinner & Black Color
+                    pen.Width = 2;
+                    pen.Color = Color.Black;
+
                     // Take Location
                     pointX = e.Location;
 
