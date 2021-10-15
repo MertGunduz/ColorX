@@ -29,8 +29,10 @@ namespace ColorX.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorX_MainMenu));
             this.Main_Panel = new System.Windows.Forms.Panel();
+            this.Canvas_PictureBox = new System.Windows.Forms.PictureBox();
             this.Top_Panel = new System.Windows.Forms.Panel();
             this.Open_PictureBox = new System.Windows.Forms.PictureBox();
             this.Save_PictureBox = new System.Windows.Forms.PictureBox();
@@ -129,7 +131,10 @@ namespace ColorX.Forms
             this.TopPanelLeftMargin_Panel = new System.Windows.Forms.Panel();
             this.TopPanelBottomMargin_Panel = new System.Windows.Forms.Panel();
             this.TopPanelTopMargin_Panel = new System.Windows.Forms.Panel();
+            this.Palette_ColorDialog = new System.Windows.Forms.ColorDialog();
+            this.Brush_Timer = new System.Windows.Forms.Timer(this.components);
             this.Main_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Canvas_PictureBox)).BeginInit();
             this.Top_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Open_PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Save_PictureBox)).BeginInit();
@@ -197,12 +202,25 @@ namespace ColorX.Forms
             // 
             // Main_Panel
             // 
+            this.Main_Panel.Controls.Add(this.Canvas_PictureBox);
             this.Main_Panel.Controls.Add(this.Top_Panel);
             this.Main_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Main_Panel.Location = new System.Drawing.Point(0, 0);
             this.Main_Panel.Name = "Main_Panel";
             this.Main_Panel.Size = new System.Drawing.Size(1104, 700);
             this.Main_Panel.TabIndex = 0;
+            // 
+            // Canvas_PictureBox
+            // 
+            this.Canvas_PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Canvas_PictureBox.Location = new System.Drawing.Point(0, 132);
+            this.Canvas_PictureBox.Name = "Canvas_PictureBox";
+            this.Canvas_PictureBox.Size = new System.Drawing.Size(1104, 568);
+            this.Canvas_PictureBox.TabIndex = 1;
+            this.Canvas_PictureBox.TabStop = false;
+            this.Canvas_PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Canvas_PictureBox_MouseDown);
+            this.Canvas_PictureBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Canvas_PictureBox_MouseMove);
+            this.Canvas_PictureBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Canvas_PictureBox_MouseUp);
             // 
             // Top_Panel
             // 
@@ -307,6 +325,7 @@ namespace ColorX.Forms
             this.Brush_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Brush_PictureBox.TabIndex = 30;
             this.Brush_PictureBox.TabStop = false;
+            this.Brush_PictureBox.Click += new System.EventHandler(this.Brush_PictureBox_Click);
             // 
             // Pencil_PictureBox
             // 
@@ -319,6 +338,7 @@ namespace ColorX.Forms
             this.Pencil_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Pencil_PictureBox.TabIndex = 29;
             this.Pencil_PictureBox.TabStop = false;
+            this.Pencil_PictureBox.Click += new System.EventHandler(this.Pencil_PictureBox_Click);
             // 
             // Fill_PictureBox
             // 
@@ -343,6 +363,7 @@ namespace ColorX.Forms
             this.Palette_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Palette_PictureBox.TabIndex = 26;
             this.Palette_PictureBox.TabStop = false;
+            this.Palette_PictureBox.Click += new System.EventHandler(this.Palette_PictureBox_Click);
             // 
             // ControlButton_Panel
             // 
@@ -371,6 +392,7 @@ namespace ColorX.Forms
             this.Minimize_Button.Size = new System.Drawing.Size(30, 30);
             this.Minimize_Button.TabIndex = 5;
             this.Minimize_Button.UseVisualStyleBackColor = true;
+            this.Minimize_Button.Click += new System.EventHandler(this.Minimize_Button_Click);
             // 
             // ControlButtonMargin_Panel
             // 
@@ -396,6 +418,7 @@ namespace ColorX.Forms
             this.Exit_Button.Size = new System.Drawing.Size(30, 30);
             this.Exit_Button.TabIndex = 0;
             this.Exit_Button.UseVisualStyleBackColor = true;
+            this.Exit_Button.Click += new System.EventHandler(this.Exit_Button_Click);
             // 
             // HeaderLabel_Panel
             // 
@@ -1291,6 +1314,10 @@ namespace ColorX.Forms
             this.TopPanelTopMargin_Panel.Size = new System.Drawing.Size(1104, 10);
             this.TopPanelTopMargin_Panel.TabIndex = 0;
             // 
+            // Brush_Timer
+            // 
+            this.Brush_Timer.Tick += new System.EventHandler(this.Brush_Timer_Tick);
+            // 
             // ColorX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1302,7 +1329,9 @@ namespace ColorX.Forms
             this.Name = "ColorX_MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorX";
+            this.Load += new System.EventHandler(this.ColorX_MainMenu_Load);
             this.Main_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Canvas_PictureBox)).EndInit();
             this.Top_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Open_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Save_PictureBox)).EndInit();
@@ -1471,5 +1500,8 @@ namespace ColorX.Forms
         private System.Windows.Forms.Button Exit_Button;
         private System.Windows.Forms.PictureBox RainbowSeperator_PictureBox;
         private System.Windows.Forms.Panel RedRainbowSeperatorMargin_Panel;
+        private System.Windows.Forms.ColorDialog Palette_ColorDialog;
+        private System.Windows.Forms.PictureBox Canvas_PictureBox;
+        private System.Windows.Forms.Timer Brush_Timer;
     }
 }
